@@ -22,8 +22,7 @@
   </div>
 
   <div class="field">
-    <%= form.label :identifier %>
-    <%= form.text_field :identifier, id: :employee_identifier %>
+    <%= form.select(:company_id, options_for_select(@companies.map{ |company| [company.name, company.id] }), prompt: 'Select Make') %>
   </div>
 
   <div class="actions">
