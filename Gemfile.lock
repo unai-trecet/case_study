@@ -1,5 +1,6 @@
-PATH
-  remote: /Users/unaitrecet/Documents/token_generator
+GIT
+  remote: git@github.com:unai-trecet/token_generator.git
+  revision: e3d6c2d2460c9330420327bb6103abc73bb40ff7
   specs:
     token_generator (0.1.0)
       byebug

@@ -35,7 +35,7 @@ gem 'jbuilder', '~> 2.5'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
-gem 'token_generator', path: "/Users/unaitrecet/Documents/token_generator"
+gem 'token_generator', git: 'git@github.com:unai-trecet/token_generator.git'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
