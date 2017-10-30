@@ -3,9 +3,11 @@
 one:
   first_name: MyString
   last_name: MyString
-  identifier: MyString
+  company: two
+  identify: ABSN:MKIU
 
 two:
   first_name: MyString
   last_name: MyString
-  identifier: MyString
+  company: two
+  identify: ABSN:MKIJ
