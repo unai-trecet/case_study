@@ -1,21 +1,22 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Basic app tha handles Compines and Employees CRUD actions and is the base to be able to adapt token_generator gem features.
 
 Things you may want to cover:
 
-* Ruby version
-
-* System dependencies
+* Ruby version 2.4.1
 
 * Configuration
 
+
 * Database creation
+  Run rails db:create
 
 * Database initialization
+  Run rails db:migrate
 
 * How to run the test suite
+  Run rails test
 
 * Services (job queues, cache servers, search engines, etc.)
 
